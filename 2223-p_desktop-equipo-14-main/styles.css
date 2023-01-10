@@ -1,0 +1,54 @@
+
+label {
+    color:white;
+}
+
+label.alert {
+    color: darkred;
+}
+
+button {
+    font-weight: bold;
+    color: white;
+}
+button:active{
+    background-color: rgb(219, 255, 15);
+}
+
+headerbar{
+    background: rgb(24, 23, 23);
+}
+
+entry {
+    background: grey;
+}
+
+window {
+    background: rgb(24, 23, 23);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    background-image: url(./img4.jpg);
+    
+}
+
+
+
+list {
+    background: rgb(24, 23, 23);
+    color: rgb(245, 221, 7);
+}
+
+
+header {
+    background: rgb(24, 23, 23);
+}
+
+/* Buttons have a label inside!! */
+button > label {
+    color: white;
+    font-style: oblique;
+}
+
+
+
+

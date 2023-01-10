@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-29 12:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: handlercheat.py:40 handlercheat.py:109
+msgid "UNABLE TO PERFORM THE ACTION"
+msgstr ""
+
+#: handlercheat.py:48
+msgid "ERROR"
+msgstr ""
+
+#: handlercheat.py:48
+msgid "No results for your search"
+msgstr ""
+
+#: handlercheat.py:61
+msgid "NO DESCRIPTION FOR THIS COMMAND"
+msgstr ""
+
+#: handlercheat.py:68
+msgid "NO CONECTION"
+msgstr ""
+
+#: handlercheat.py:68
+msgid "Please check your internet connection"
+msgstr ""
+
+#: handlercheat.py:104
+msgid "SEARCH ERROR"
+msgstr ""
+
+#: handlercheat.py:104
+msgid "The command you were looking for was not found"
+msgstr ""
+
+#: viewcheat.py:88
+msgid "CHEAT.SH"
+msgstr ""
+
+#: viewcheat.py:125
+msgid "COMMANDS:"
+msgstr ""
+
+#: viewcheat.py:129
+msgid "DESCRIPTIONS:"
+msgstr ""
+
+#: viewcheat.py:154
+msgid "Reset"
+msgstr ""
+
+#: viewcheat.py:164
+msgid "Cancel"
+msgstr ""
+
+#: viewcheat.py:165
+msgid "Accept"
+msgstr ""
+
+#: viewcheat.py:170
+msgid "FIlter for command:"
+msgstr ""
+
+#: viewcheat.py:179
+msgid "Filter"
+msgstr ""

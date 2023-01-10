@@ -1,0 +1,151 @@
+
+
+/*Escogimos el repositorio de :
+    https://github.com/kiwicom/orbit-design-tokens-archived
+las variables están definidas en /output/theo-spec.json
+y además al lado de cada una de las que usamos está comentado
+el nombre de la variable en ese archivo
+*/
+
+/*CSS común*/
+body{
+	background: rgb(245, 247, 249); /*backgroundBody*/
+	font-size: 14px; /*fontSizeTextNormal*/
+	line-height: 20px; /*lineHeightTextNormal*/
+	padding: 6px 8px; /*paddingTag*/
+	font-family: "Open Sans", sans-serif;
+	margin: 0;
+}
+#parrafoinfo{
+	color: rgb(1, 114, 203); /*colorTextInfo*/
+}
+#intext{
+	border: 2px solid rgb(1, 114, 203); /*borderWidthInputFocus*/ /*orderStyleInput*/ /*borderColorInputFocus*/
+	padding: 0 12px; /*paddingInputNormal*/
+}
+#innumber{
+	border: 2px solid rgb(1, 114, 203); /*borderWidthInputFocus*/ /*orderStyleInput*/ /*borderColorInputFocus*/
+	padding: 0 12px; /*paddingInputNormal*/
+}
+#indate{
+	border: 2px solid rgb(1, 114, 203); /*borderWidthInputFocus*/ /*orderStyleInput*/ /*borderColorInputFocus*/
+	padding: 0 12px; /*paddingInputNormal*/
+}
+
+#inopciones{
+	border: 2px solid rgb(1, 114, 203); /*borderWidthInputFocus*/ /*orderStyleInput*/ /*borderColorInputFocus*/
+	padding: 0 12px; /*paddingInputNormal*/
+	margin-bottom: 2px; /*marginBottomSelectSuffix*/
+
+}
+#insubmit{
+	border:2px solid rgb(0, 169, 145); /*borderWidthInputFocus*/ /*orderStyleInput*/ /*"borderColorButtonPrimaryBordered*/
+	background: rgb(0, 169, 145); /*backgroundButtonPrimary"*/
+}
+#ulist{
+	list-style: none; /*propio*/
+}
+.title1{
+	font-size: 28px; /*fontSizeHeadingTitle1*/
+	line-height: 36px;/*line-height-heading-title1*/
+	font-weight: 700;/*font-weight-heading-title1: "700"*/
+}
+.title2{
+	font-size: 22px; /*fontSizeHeadingTitle2*/
+	line-height: 28px; /*line-height-heading-title2: 28px;*/
+	font-weight: 500; /*font-weight-heading-title2: "500";*/
+}
+.title3{
+	font-size: 16px; /*font-size-heading-title3: 16px;*/
+	line-height: 24px; /*line-height-heading-title3: 24px;*/
+	font-weight: 500; /*font-weight-heading-title3: "500";*/
+}
+#aviso{
+	color:rgb(233, 131, 5); /*colorTextWarning*/
+}
+#footer1{
+	font-size: 12px; /*fontSizeTextSmall*/
+}
+#form1{ /*para el salto de linea en el formulario*/
+	content: '\A'; 
+	white-space: pre;
+	margin-left: -3rem;
+}
+#footer1{/*puede que se tenga que recolocar*/
+	font-size: 12px; /*fontSizeTextSmall*/
+}
+#formulario{
+	position: relative;
+	
+}
+#listadeapuestas{
+	position: relative;
+}
+
+
+/*tablet*/
+@media (min-width: 768px) and (max-width: 990px){
+
+	section#zone2{
+		display: grid;
+		grid-template-columns: auto auto; 
+		grid-gap: 1%;
+	}
+	.image{
+		grid-column: 1 / span 2;
+	}
+
+}
+
+/*ordenador*/
+@media (min-width:991px) {
+	section#zone2{
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 1%;
+	}
+
+    #cuerpo{
+        height: 1000px;
+    }
+}
+	
+/*todo esto lo añadimos por darle estilo a las listas*/
+	* {
+		box-sizing: border-box;
+
+	}
+	
+	
+.wrapper {
+	max-width: 600px;
+	margin: 0 auto;
+}
+#ulist ol {
+	list-style: none;
+	padding: 0;
+}
+
+#ulist li + li {
+	margin-top: 1rem;
+}
+
+#ulist li {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	background: aliceblue;
+	padding: 1.5rem;
+	border-radius: 1rem;
+	width: calc(100% - 2rem);
+	box-shadow: 0.25rem 0.25rem 0.75rem rgb(0 0 0 / 0.1);
+	
+}
+	
+#ulist li:nth-child(even) {
+	background: lavender;
+	margin-right: 2rem;
+	margin-left: -2rem;
+}
+img {
+	max-width: 100%; }

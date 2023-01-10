@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>IPMWeb</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="styles.css" />
+
+
+    <script src="process.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <h1 class="title1">
+            Apuestas Desportivas S.L
+        </h1>
+    </header>
+    <main>
+        <section id="zone1">
+            <h2 class="title2">MUNDIAL DE QATAR</h2>
+            <p id="parrafoinfo">Bienvenido a la página para apostar en el evento de fútbol más grande
+                de todos los tiempos. Donde los países con sus selecciones que traerán a algunos
+                de los mejores jugadores de todos los tiempo como Messi o Cristiano Ronaldo se jugarán
+                el derecho de levantar la copa y coronarse como el mejor equipo del mundo.
+            </p>
+        </section>
+        <section id="zone2">
+                <div class="image">
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="./imagenes/cristiano_runaldo_chiquito_mas.jpg">
+                        <source media="(min-width: 992px)" srcset="./imagenes/cristiano_runaldo.jpg">
+                        <img src="./imagenes/cristiano_runaldo_mediano.jpg" alt="image 1">
+                    </picture>
+                </div>
+                <div id="info" class="info2">
+                    <p id="titulolistapartidos">PARTIDOS FASE DE GRUPOS:</p>
+                    <ol id= "listapartidos">
+                        
+                        <li> España(1) vs Costa Rica(2)</li>
+                        <li> Argentina(1) vs México(2)</li>
+                        <li> Catar(1) vs Senegal(2)</li>
+                        <li> Polonia(1) vs Arabia Saudita(2)</li>
+                        <li> Francia(1) vs Dinamarca(2)</li>
+                        <li> Francia(1) vs Australia(2)</li>
+                        <li> Japón(1) vs Bélgica(2)</li>
+                        <li> España(1) vs Alemania(2)</li>
+                        <li> Croacia(1) vs Canadá(2)</li>
+                        <li> España(1) vs Argentina(3)</li>
+
+                    </ol>
+                </div>
+
+            <div id="formulario" class="form2">
+                <h3 class="title3">FORMULARIO:</h3>
+                <P id="aviso">*Todos los campos son obligatorios a excepción de la fecha
+                </P>
+                <form id="form1">
+                    <label for="intext">Cantidad a apostar (campo de texto)</label>
+                    <input type="text" name="Apuesta" id="intext">
+                    <label for="indate">Fecha en la que desea recibir el dinero (fecha)</label>
+                    <input type="date" name="Fecha" id="indate">
+                    <label for="innumber">Número del partido para aposta (numero 1-10)</label>
+                    <input type="number" name="Numero" id="innumber" max="10" min="1">
+                    <label for="inopciones">A quien apuesta (opcion1, empate, opcion2)</label>
+                    <select name="Opciones" id="inopciones" size="1">
+                        <option value="opt1">Vence el 1</option>
+                        <option value="opt2">Empate</option>
+                        <option value="opt3">Vence el 2</option>
+                    </select>
+                    <button type="submit" id="insubmit">Enviar</button>
+
+                </form>
+                <p id="advertise" role="alert"></p>
+
+            </div>
+        </section>
+        <section id="listadeapuestas">
+            <h3 class="title3">APUESTAS:</h3>
+            <ul id="ulist" aria-live="polite">
+
+            </ul>
+        </section>
+    </main>
+            <hr id="barra">
+        <footer id="footer1">
+            <p>Página diseñada por los ludópatas: <br>
+                Diego Suárez, Alejandro Ariza, Nicolás Rivas @ludopatia2022</p>
+
+        </footer>
+    
+</body>
+
+</html>
